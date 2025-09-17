@@ -39,6 +39,7 @@ ul li {
     flex-direction: column;
     gap: 12px;
     align-items: center;
+    cursor: pointer;
 }
 li img {
     width: 100%;
@@ -55,4 +56,9 @@ button {
     padding: 8px 24px;
     color: var(--color-text);
     text-transform: uppercase;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+   
 }
